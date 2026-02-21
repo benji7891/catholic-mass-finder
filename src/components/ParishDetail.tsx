@@ -107,6 +107,6 @@ export default function ParishDetail({ church, filterDay, filterService, onClose
 
       <h3 className="mb-3 text-sm font-semibold uppercase tracking-wide text-gray-500" id="schedule-heading">Schedule</h3>
       <ScheduleTable worshipTimes={filteredTimes} aria-labelledby="schedule-heading" />
-    </div>
+    </article>
   );
 }
