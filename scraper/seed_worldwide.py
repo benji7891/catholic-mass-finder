@@ -99,3 +99,37 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+# Add more Philippine parishes
+def add_philippines_parishes():
+    """Add more Philippine parishes including Cagayan Valley region."""
+    from database import ParishDatabase
+    
+    new_parishes = [
+        # Cagayan Valley Region
+        {"name": "San Matthias Parish Church", "diocese": "Diocese of Ilagan", "city": "Tumauini", "state": "Isabela", "country": "Philippines", "latitude": 17.2686, "longitude": 121.7994, "address": "Tumauini, Isabela, Philippines"},
+        {"name": "Our Lady of the Pillar Cathedral", "diocese": "Diocese of Ilagan", "city": "Ilagan", "state": "Isabela", "country": "Philippines", "latitude": 17.1453, "longitude": 121.8840, "address": "Ilagan, Isabela, Philippines"},
+        {"name": "St. Dominic Cathedral", "diocese": "Diocese of Bayombong", "city": "Bayombong", "state": "Nueva Vizcaya", "country": "Philippines", "latitude": 16.4836, "longitude": 121.1504, "address": "Bayombong, Nueva Vizcaya, Philippines"},
+        
+        # More major Philippine cities
+        {"name": "Quiapo Church", "diocese": "Archdiocese of Manila", "city": "Manila", "state": "", "country": "Philippines", "latitude": 14.5988, "longitude": 120.9826, "address": "Plaza Miranda, Quiapo, Manila, Philippines"},
+        {"name": "Cebu Metropolitan Cathedral", "diocese": "Archdiocese of Cebu", "city": "Cebu City", "state": "Cebu", "country": "Philippines", "latitude": 10.2935, "longitude": 123.9015, "address": "Cebu City, Cebu, Philippines"},
+        {"name": "San Agustin Church", "diocese": "Archdiocese of Manila", "city": "Manila", "state": "", "country": "Philippines", "latitude": 14.5887, "longitude": 120.9753, "address": "Intramuros, Manila, Philippines"},
+        {"name": "Baclaran Church", "diocese": "Archdiocese of Manila", "city": "Parañaque", "state": "", "country": "Philippines", "latitude": 14.4629, "longitude": 121.0115, "address": "Baclaran, Parañaque, Philippines"},
+        {"name": "Antipolo Cathedral", "diocese": "Diocese of Antipolo", "city": "Antipolo", "state": "Rizal", "country": "Philippines", "latitude": 14.5868, "longitude": 121.1755, "address": "Antipolo, Rizal, Philippines"},
+    ]
+    
+    with ParishDatabase("parishes.db") as db:
+        for parish in new_parishes:
+            if not db.parish_exists(parish['name'], parish.get('diocese', 'Unknown')):
+                parish_id = db.insert_parish(parish)
+                print(f"  ✓ Added: {parish['name']}, {parish['city']}")
+            else:
+                print(f"  ⏭️  Already exists: {parish['name']}")
+        
+        stats = db.get_stats()
+        print(f"\n📊 Updated stats: {stats['total_parishes']} parishes")
+
+if __name__ == '__main__':
+    print("\n🇵🇭 Adding more Philippine parishes...")
+    add_philippines_parishes()

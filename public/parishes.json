@@ -1,6 +1,6 @@
 [
   {
-    "id": 15,
+    "id": 46,
     "name": "St. Martha Catholic Church",
     "diocese": "Diocese of Lexington",
     "address": "214 S Lake Dr, Prestonsburg, KY 41653",
@@ -17,11 +17,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 16,
+    "id": 47,
     "name": "Cathedral of Christ the King",
     "diocese": "Diocese of Lexington",
     "address": "299 Colony Blvd, Lexington, KY 40502",
@@ -38,11 +38,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 17,
+    "id": 48,
     "name": "St. Peter Catholic Church",
     "diocese": "Diocese of Lexington",
     "address": "105 N Main St, Lexington, KY 40507",
@@ -59,11 +59,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 18,
+    "id": 49,
     "name": "Cathedral of the Assumption",
     "diocese": "Archdiocese of Louisville",
     "address": "433 S 5th St, Louisville, KY 40202",
@@ -80,11 +80,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 19,
+    "id": 50,
     "name": "St. Patrick Catholic Church",
     "diocese": "Diocese of Covington",
     "address": "310 13th St, Newport, KY 41071",
@@ -101,11 +101,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 20,
+    "id": 51,
     "name": "St. Stephen Cathedral",
     "diocese": "Diocese of Owensboro",
     "address": "610 Locust St, Owensboro, KY 42301",
@@ -122,11 +122,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 21,
+    "id": 52,
     "name": "St. Patrick's Cathedral",
     "diocese": "Archdiocese of New York",
     "address": "5th Ave, New York, NY 10022",
@@ -143,11 +143,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 22,
+    "id": 53,
     "name": "Cathedral of St. John the Divine",
     "diocese": "Archdiocese of New York",
     "address": "1047 Amsterdam Ave, New York, NY 10025",
@@ -164,11 +164,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 23,
+    "id": 54,
     "name": "Cathedral of Our Lady of the Angels",
     "diocese": "Archdiocese of Los Angeles",
     "address": "555 W Temple St, Los Angeles, CA 90012",
@@ -185,11 +185,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 24,
+    "id": 55,
     "name": "Mission Dolores Basilica",
     "diocese": "Archdiocese of San Francisco",
     "address": "3321 16th St, San Francisco, CA 94114",
@@ -206,11 +206,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 25,
+    "id": 56,
     "name": "Co-Cathedral of the Sacred Heart",
     "diocese": "Archdiocese of Galveston-Houston",
     "address": "1111 St Joseph Pkwy, Houston, TX 77002",
@@ -227,11 +227,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 26,
+    "id": 57,
     "name": "San Fernando Cathedral",
     "diocese": "Archdiocese of San Antonio",
     "address": "115 Main Plaza, San Antonio, TX 78205",
@@ -248,11 +248,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 27,
+    "id": 58,
     "name": "Notre-Dame Basilica",
     "diocese": "Archdiocese of Montreal",
     "address": "110 Notre-Dame St W, Montreal, QC, Canada",
@@ -269,11 +269,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 28,
+    "id": 59,
     "name": "St. Michael's Cathedral Basilica",
     "diocese": "Archdiocese of Toronto",
     "address": "65 Bond St, Toronto, ON, Canada",
@@ -290,11 +290,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 29,
+    "id": 60,
     "name": "Westminster Cathedral",
     "diocese": "Archdiocese of Westminster",
     "address": "42 Francis St, Westminster, London, UK",
@@ -311,11 +311,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 30,
+    "id": 61,
     "name": "St. Mary's Cathedral",
     "diocese": "Archdiocese of Edinburgh",
     "address": "61 York Pl, Edinburgh, UK",
@@ -332,11 +332,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 31,
+    "id": 62,
     "name": "Pro-Cathedral",
     "diocese": "Archdiocese of Dublin",
     "address": "83 Marlborough St, Dublin, Ireland",
@@ -353,11 +353,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 32,
+    "id": 63,
     "name": "Notre-Dame de Paris",
     "diocese": "Archdiocese of Paris",
     "address": "6 Parvis Notre-Dame, Paris, France",
@@ -374,11 +374,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 33,
+    "id": 64,
     "name": "Sacr\u00e9-C\u0153ur",
     "diocese": "Archdiocese of Paris",
     "address": "35 Rue du Chevalier de la Barre, Paris, France",
@@ -395,11 +395,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 34,
+    "id": 65,
     "name": "St. Peter's Basilica",
     "diocese": "Diocese of Rome",
     "address": "Piazza San Pietro, Vatican City",
@@ -416,11 +416,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 35,
+    "id": 66,
     "name": "Duomo di Milano",
     "diocese": "Archdiocese of Milan",
     "address": "Piazza del Duomo, Milan, Italy",
@@ -437,11 +437,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 36,
+    "id": 67,
     "name": "Sagrada Fam\u00edlia",
     "diocese": "Archdiocese of Barcelona",
     "address": "Carrer de Mallorca, 401, Barcelona, Spain",
@@ -458,11 +458,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 37,
+    "id": 68,
     "name": "Cathedral of Santiago de Compostela",
     "diocese": "Archdiocese of Santiago de Compostela",
     "address": "Praza do Obradoiro, Santiago de Compostela, Spain",
@@ -479,11 +479,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 38,
+    "id": 69,
     "name": "Cologne Cathedral",
     "diocese": "Archdiocese of Cologne",
     "address": "Domkloster 4, Cologne, Germany",
@@ -500,11 +500,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 39,
+    "id": 70,
     "name": "St. Mary's Basilica",
     "diocese": "Archdiocese of Krak\u00f3w",
     "address": "Plac Mariacki 5, Krak\u00f3w, Poland",
@@ -521,11 +521,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 40,
+    "id": 71,
     "name": "St. Mary's Cathedral",
     "diocese": "Archdiocese of Sydney",
     "address": "St Marys Rd, Sydney NSW, Australia",
@@ -542,11 +542,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 41,
+    "id": 72,
     "name": "St. Patrick's Cathedral",
     "diocese": "Archdiocese of Melbourne",
     "address": "1 Cathedral Pl, East Melbourne VIC, Australia",
@@ -563,11 +563,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 42,
+    "id": 73,
     "name": "Manila Cathedral",
     "diocese": "Archdiocese of Manila",
     "address": "Cabildo St, Intramuros, Manila, Philippines",
@@ -584,11 +584,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 43,
+    "id": 74,
     "name": "Metropolitan Cathedral",
     "diocese": "Archdiocese of Mexico City",
     "address": "Plaza de la Constituci\u00f3n, Centro, Mexico City, Mexico",
@@ -605,11 +605,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 44,
+    "id": 75,
     "name": "Catedral Metropolitana",
     "diocese": "Archdiocese of S\u00e3o Paulo",
     "address": "Pra\u00e7a da S\u00e9, S\u00e3o Paulo, SP, Brazil",
@@ -626,11 +626,11 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   },
   {
-    "id": 45,
+    "id": 76,
     "name": "Buenos Aires Metropolitan Cathedral",
     "diocese": "Archdiocese of Buenos Aires",
     "address": "San Mart\u00edn 27, Buenos Aires, Argentina",
@@ -647,7 +647,175 @@
     "mass_times": null,
     "pastor": null,
     "source_url": null,
-    "last_scraped": "2026-02-21 07:56:40",
-    "created_at": "2026-02-21 07:56:40"
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
+  },
+  {
+    "id": 77,
+    "name": "San Matthias Parish Church",
+    "diocese": "Diocese of Ilagan",
+    "address": "Tumauini, Isabela, Philippines",
+    "street": null,
+    "city": "Tumauini",
+    "state": "Isabela",
+    "zip": null,
+    "country": "Philippines",
+    "phone": null,
+    "website": null,
+    "email": null,
+    "latitude": 17.2686,
+    "longitude": 121.7994,
+    "mass_times": null,
+    "pastor": null,
+    "source_url": null,
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
+  },
+  {
+    "id": 78,
+    "name": "Our Lady of the Pillar Cathedral",
+    "diocese": "Diocese of Ilagan",
+    "address": "Ilagan, Isabela, Philippines",
+    "street": null,
+    "city": "Ilagan",
+    "state": "Isabela",
+    "zip": null,
+    "country": "Philippines",
+    "phone": null,
+    "website": null,
+    "email": null,
+    "latitude": 17.1453,
+    "longitude": 121.884,
+    "mass_times": null,
+    "pastor": null,
+    "source_url": null,
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
+  },
+  {
+    "id": 79,
+    "name": "St. Dominic Cathedral",
+    "diocese": "Diocese of Bayombong",
+    "address": "Bayombong, Nueva Vizcaya, Philippines",
+    "street": null,
+    "city": "Bayombong",
+    "state": "Nueva Vizcaya",
+    "zip": null,
+    "country": "Philippines",
+    "phone": null,
+    "website": null,
+    "email": null,
+    "latitude": 16.4836,
+    "longitude": 121.1504,
+    "mass_times": null,
+    "pastor": null,
+    "source_url": null,
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
+  },
+  {
+    "id": 80,
+    "name": "Quiapo Church",
+    "diocese": "Archdiocese of Manila",
+    "address": "Plaza Miranda, Quiapo, Manila, Philippines",
+    "street": null,
+    "city": "Manila",
+    "state": "",
+    "zip": null,
+    "country": "Philippines",
+    "phone": null,
+    "website": null,
+    "email": null,
+    "latitude": 14.5988,
+    "longitude": 120.9826,
+    "mass_times": null,
+    "pastor": null,
+    "source_url": null,
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
+  },
+  {
+    "id": 81,
+    "name": "Cebu Metropolitan Cathedral",
+    "diocese": "Archdiocese of Cebu",
+    "address": "Cebu City, Cebu, Philippines",
+    "street": null,
+    "city": "Cebu City",
+    "state": "Cebu",
+    "zip": null,
+    "country": "Philippines",
+    "phone": null,
+    "website": null,
+    "email": null,
+    "latitude": 10.2935,
+    "longitude": 123.9015,
+    "mass_times": null,
+    "pastor": null,
+    "source_url": null,
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
+  },
+  {
+    "id": 82,
+    "name": "San Agustin Church",
+    "diocese": "Archdiocese of Manila",
+    "address": "Intramuros, Manila, Philippines",
+    "street": null,
+    "city": "Manila",
+    "state": "",
+    "zip": null,
+    "country": "Philippines",
+    "phone": null,
+    "website": null,
+    "email": null,
+    "latitude": 14.5887,
+    "longitude": 120.9753,
+    "mass_times": null,
+    "pastor": null,
+    "source_url": null,
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
+  },
+  {
+    "id": 83,
+    "name": "Baclaran Church",
+    "diocese": "Archdiocese of Manila",
+    "address": "Baclaran, Para\u00f1aque, Philippines",
+    "street": null,
+    "city": "Para\u00f1aque",
+    "state": "",
+    "zip": null,
+    "country": "Philippines",
+    "phone": null,
+    "website": null,
+    "email": null,
+    "latitude": 14.4629,
+    "longitude": 121.0115,
+    "mass_times": null,
+    "pastor": null,
+    "source_url": null,
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
+  },
+  {
+    "id": 84,
+    "name": "Antipolo Cathedral",
+    "diocese": "Diocese of Antipolo",
+    "address": "Antipolo, Rizal, Philippines",
+    "street": null,
+    "city": "Antipolo",
+    "state": "Rizal",
+    "zip": null,
+    "country": "Philippines",
+    "phone": null,
+    "website": null,
+    "email": null,
+    "latitude": 14.5868,
+    "longitude": 121.1755,
+    "mass_times": null,
+    "pastor": null,
+    "source_url": null,
+    "last_scraped": "2026-02-21 08:04:33",
+    "created_at": "2026-02-21 08:04:33"
   }
 ]
