@@ -14,14 +14,26 @@ interface MassTimesResponse {
   };
 }
 
-const corsHeaders = {
-  'Content-Type': 'application/json',
-  'Access-Control-Allow-Origin': '*',
-  'Access-Control-Allow-Headers': 'Content-Type',
-  'Access-Control-Allow-Methods': 'GET, OPTIONS',
+// Get allowed origin from environment or use production URL
+const ALLOWED_ORIGIN = process.env.URL || 'https://catholic-mass-finder.netlify.app';
+
+const getCorsHeaders = (origin?: string) => {
+  // In development, allow localhost
+  const isDev = origin?.includes('localhost') || origin?.includes('127.0.0.1');
+  const allowedOrigin = isDev ? origin : ALLOWED_ORIGIN;
+  
+  return {
+    'Content-Type': 'application/json',
+    'Access-Control-Allow-Origin': allowedOrigin || ALLOWED_ORIGIN,
+    'Access-Control-Allow-Headers': 'Content-Type',
+    'Access-Control-Allow-Methods': 'GET, OPTIONS',
+  };
 };
 
 export const handler: Handler = async (event: HandlerEvent): Promise<MassTimesResponse> => {
+  const origin = event.headers.origin || event.headers.Origin;
+  const corsHeaders = getCorsHeaders(origin);
+  
   // Handle CORS preflight
   if (event.httpMethod === 'OPTIONS') {
     return {
