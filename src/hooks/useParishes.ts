@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import { fetchParishes } from '../services/masstimes';
+import { searchCatholicChurches } from '../services/overpass';
 import type { Church } from '../types';
 import { retryWithBackoff, getErrorMessage } from '../utils/retry';
 import { getCachedParishes, cacheParishes } from '../utils/cache';
@@ -28,7 +28,7 @@ export function useParishes() {
     setState({ parishes: [], loading: true, error: null });
 
     try {
-      const parishes = await retryWithBackoff(() => fetchParishes(lat, lng), 3, 1000);
+      const parishes = await retryWithBackoff(() => searchCatholicChurches(lat, lng), 3, 1000);
       cacheParishes(lat, lng, parishes);
       setState({ parishes, loading: false, error: null });
       return parishes;
