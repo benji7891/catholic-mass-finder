@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import { searchCatholicChurches } from '../services/overpass';
+import { searchParishes } from '../services/localParishes';
 import type { Church } from '../types';
 import { retryWithBackoff, getErrorMessage } from '../utils/retry';
 import { getCachedParishes, cacheParishes } from '../utils/cache';
@@ -28,7 +28,23 @@ export function useParishes() {
     setState({ parishes: [], loading: true, error: null });
 
     try {
-      const parishes = await retryWithBackoff(() => searchCatholicChurches(lat, lng), 3, 1000);
+      const results = await retryWithBackoff(() => searchParishes(lat, lng, 50), 3, 1000);
+      // Map local DB results to Church format
+      const parishes: Church[] = results.map(p => ({
+        id: p.id,
+        name: p.name,
+        address: p.address,
+        city: p.city,
+        state: p.state,
+        zip: p.zip,
+        country: p.country,
+        latitude: p.latitude,
+        longitude: p.longitude,
+        phone: p.phone,
+        url: p.website,
+        distance: p.distance,
+        worshipTimes: [],  // Can be enhanced later when we scrape mass times
+      }));
       cacheParishes(lat, lng, parishes);
       setState({ parishes, loading: false, error: null });
       return parishes;

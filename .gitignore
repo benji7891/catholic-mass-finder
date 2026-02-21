@@ -29,3 +29,12 @@ dist-ssr
 
 # Local Netlify folder
 .netlify
+
+# Scraper files
+scraper/*.db
+scraper/*.log
+scraper/venv/
+scraper/__pycache__/
+
+# Database files (not needed in git, regenerated from scraper)
+netlify/functions/*.db
