@@ -24,11 +24,15 @@ A web application to find Catholic parishes, Mass times, confession schedules, a
    cp .env.example .env
    ```
 
-4. Add your MassTimes API key to the `.env` file:
+4. Get a MassTimes API key:
+   - Email webmaster@masstimes.org to request an API key
+   - Explain your use case and provide your website URL
+   - The demo key in their documentation does not work
+
+5. Add your MassTimes API key to the `.env` file:
    ```
-   VITE_MASSTIMES_API_KEY=your_api_key_here
+   MASSTIMES_API_KEY=your_actual_api_key_here
    ```
-   Get your API key from [MassTimes.org API](https://www.masstimes.org/api)
 
 5. Start the development server:
    ```bash
